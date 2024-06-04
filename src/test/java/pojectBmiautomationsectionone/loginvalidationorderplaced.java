@@ -26,7 +26,7 @@ package pojectBmiautomationsectionone;
 	
 	public class loginvalidationorderplaced {
 		
-		
+		//this java test start part test starting
 			
 				public static void main(String[] args) throws InterruptedException {
 					
