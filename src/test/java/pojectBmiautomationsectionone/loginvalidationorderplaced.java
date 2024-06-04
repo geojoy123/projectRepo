@@ -631,9 +631,13 @@ package pojectBmiautomationsectionone;
 													        System.out.println("consulation number : " + value);
 													        
 													
-												
-				
-				
+													        WebElement orderconfirmation = driver.findElement(By.className("is-size-4 mt-2"));
+													        													        
+													      
+													        System.out.println(orderconfirmation.getText());
+													    
+													        
+													        
 				}
 						
 
