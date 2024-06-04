@@ -631,16 +631,14 @@ package pojectBmiautomationsectionone;
 													        System.out.println("consulation number : " + value);
 													        
 													
-													        String url52=driver.getCurrentUrl();
-													        
-													        System.out.println(url52);
+												
 				
 				
 				}
 						
 
 }
-				
+	
 				
 
 
