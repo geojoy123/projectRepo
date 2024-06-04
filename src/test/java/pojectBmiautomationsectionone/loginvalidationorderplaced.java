@@ -22,7 +22,7 @@ package pojectBmiautomationsectionone;
 	import org.openqa.selenium.support.ui.WebDriverWait;
 			
 	
-	
+	//this test project section
 	
 	public class loginvalidationorderplaced {
 		
