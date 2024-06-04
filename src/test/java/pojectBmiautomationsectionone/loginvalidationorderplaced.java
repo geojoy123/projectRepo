@@ -60,7 +60,7 @@ package pojectBmiautomationsectionone;
 					        WebElement Username = driver.findElement(By.name("username"));
 					        
 					    
-					        Username.sendKeys("test3397@gmail.com");
+					        Username.sendKeys("test4380@gmail.com");
 					        
 					        Thread.sleep(500);
 					        
@@ -69,7 +69,7 @@ package pojectBmiautomationsectionone;
 					        
 					        
 					        
-					        Password.sendKeys("Qwert@3397");
+					        Password.sendKeys("Qwert@4380");
 					        
 					        Thread.sleep(500);
 					        
