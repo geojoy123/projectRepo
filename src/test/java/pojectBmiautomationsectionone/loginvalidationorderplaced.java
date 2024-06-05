@@ -60,7 +60,7 @@ package pojectBmiautomationsectionone;
 					        WebElement Username = driver.findElement(By.name("username"));
 					        
 					    
-					        Username.sendKeys("test4380@gmail.com");
+					        Username.sendKeys("test3397@gmail.com");
 					        
 					        Thread.sleep(500);
 					        
@@ -69,7 +69,7 @@ package pojectBmiautomationsectionone;
 					        
 					        
 					        
-					        Password.sendKeys("Qwert@4380");
+					        Password.sendKeys("Qwert@3397");
 					        
 					        Thread.sleep(500);
 					        
@@ -441,7 +441,7 @@ package pojectBmiautomationsectionone;
 							      jscript6.executeScript("window.scrollBy(0, 1000)");
 							 
 					       
-							      try {
+							      try {   
 							    	  WebElement consulationquestion26 =driver.findElement(By.xpath("//span[@data-bind='css: question.getCheckedLabelCss(), click: onTrueLabelClick']"));
 							    	    System.out.println("Element found!");
 							    	    
