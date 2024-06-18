@@ -642,11 +642,4 @@ package pojectBmiautomationsectionone;
 						
 
 }
-	
 				
-
-
-
-		
-
-	

@@ -148,9 +148,53 @@ public class newaccountorderplaced {
 	        
 	        Processedbtn.click();
 	       
+	        WebElement maleoption = driver.findElement(By.xpath("//p[normalize-space()='Male']"));
+	      
 	        
+	        maleoption.click();
 	        
+	        WebElement contunioptionbtn = driver.findElement(By.xpath("//button[@id='surveyNext']"));
+	        
+	        contunioptionbtn.click();
 	   
+	        
+	        WebElement consulation120 = driver.findElement(By.xpath("//p[normalize-space()='General- I want to be healthier']"));
+	      
+	        consulation120.click();
+	        
+	        WebElement consulationprocesbtun120 = driver.findElement(By.xpath("//button[@id='surveyNext']"));
+	        
+	        consulationprocesbtun120.click();
+	        
+	        WebElement consulation121 = driver.findElement(By.xpath("//p[normalize-space()='Neutral']"));
+		      
+	        consulation121.click();
+	        
+	        consulationprocesbtun120.click();
+	        
+	        WebElement consulation122 = driver.findElement(By.xpath("//textarea[@id='sq_152i']"));
+		      
+	        consulation122.sendKeys("s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley");
+	        
+	        
+	        consulationprocesbtun120.click();
+	        
+	        WebElement consulation123 = driver.findElement(By.xpath("//textarea[@id='sq_153i']"));
+	        
+	        consulation123.sendKeys("s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley");
+	        
+	        consulationprocesbtun120.click();
+	        
+	        WebElement consulation124 = driver.findElement(By.xpath("//label[normalize-space()='Choose file']"));
+	        
+	        consulation124.sendKeys("C:\\Users\\ADMIN\\Documents");
+	        
+	        
+	        consulationprocesbtun120.click();
+	        
+	        
+	      
+	        
 	        
 	}
 
