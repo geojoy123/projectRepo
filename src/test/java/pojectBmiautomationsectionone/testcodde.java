@@ -50,7 +50,3 @@ package pojectBmiautomationsectionone;
 		    }
 		}
 
-
-	}
-
-}
