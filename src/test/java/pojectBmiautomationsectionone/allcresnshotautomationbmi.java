@@ -580,18 +580,21 @@ public class allcresnshotautomationbmi {
 		      
 		      takeScreenshot(driver, screenshotDir, "71_after_button_click");
 		      
-		        JavascriptExecutor js208 = (JavascriptExecutor) driver;
-		        WebElement hiddenElementerer = (WebElement) js208.executeScript("return document.evaluate(\"your-xpath\", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;");
+		        JavascriptExecutor js2084 = (JavascriptExecutor) driver;
+		        WebElement hiddenElementererr = (WebElement) js2084.executeScript("return document.evaluate(\"your-xpath\", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;");
 		      
 		      
-		        takeScreenshot(driver, screenshotDir, "72_after_button_click");
+
 		        
 		      WebElement consulationquetion24 =driver.findElement(By.id("select-me-30"));
 		      
-		      takeScreenshot(driver, screenshotDir, "73_after_button_click");
-		      
+		        takeScreenshot(driver, screenshotDir, "72_after_button_click");
+		
 		      consulationquetion24.click();
 
+		      
+		      takeScreenshot(driver, screenshotDir, "73_after_button_click");
+		      
 		      takeScreenshot(driver, screenshotDir, "74_after_button_click");
 		      
 		      Thread.sleep(1800);
